@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/view1"
+        android:background="#F60000"
+        android:layout_marginTop="70sp"
+        android:textSize="35sp"
+        android:text="view 1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/view2"
+        android:layout_below="@id/view1"
+        android:layout_toRightOf="@id/view1"
+        android:background="#5C00FF"
+        android:textSize="35sp"
+        android:text="view 2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/view3"
+        android:layout_below="@id/view2"
+        android:layout_toRightOf="@id/view2"
+        android:background="#FF5722"
+        android:textSize="35sp"
+        android:text="view 3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/view4"
+        android:layout_below="@id/view3"
+        android:layout_toRightOf="@id/view3"
+        android:background="#FFE500"
+        android:textSize="35sp"
+        android:text="view 4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/view5"
+        android:layout_below="@id/view4"
+        android:layout_toLeftOf="@id/view4"
+        android:background="#5C9E13"
+        android:textSize="35sp"
+        android:text="view 5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/view6"
+        android:layout_below="@id/view5"
+        android:layout_toLeftOf="@id/view5"
+        android:background="#F44336"
+        android:textSize="35sp"
+        android:text="view 6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/view7"
+        android:layout_below="@id/view6"
+        android:layout_toLeftOf="@id/view6"
+        android:background="#6BC600"
+        android:textSize="35sp"
+        android:text="view 7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</RelativeLayout>
