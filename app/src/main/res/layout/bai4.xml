@@ -1,54 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-android:layout_gravity="center"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+
     <TextView
-        android:background="#F40000"
-        android:textSize="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerInParent="true"
+        android:background="#F40000"
         android:text="Top content here"
+        android:textSize="30sp" />
+
+    <LinearLayout
+
+
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
 
-<LinearLayout
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FF9800"
+            android:text="frist"
+            android:textSize="30sp" />
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FD3D00"
+            android:text="second"
+            android:textSize="30sp" />
 
-    android:layout_centerInParent="true"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#009688"
+            android:text="three"
+            android:textSize="30sp" />
+    </LinearLayout>
+
 
     <TextView
-
-        android:background="#FF9800"
-        android:text="frist"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-    <TextView
-
-        android:background="#FD3D00"
-        android:text="second"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-    <TextView
-
-        android:background="#009688"
-        android:text="three"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-</LinearLayout>
-
-
-
-
-    <TextView
-        android:background="#D3BDBD"
-        android:textSize="30sp"
+        android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerInParent="true"
+        android:background="#D3BDBD"
         android:text="Bottom content here"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:textSize="30sp" />
 
 </RelativeLayout>
